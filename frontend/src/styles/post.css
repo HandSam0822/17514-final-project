@@ -1,0 +1,120 @@
+.post {
+    background-color: white;
+    width: 98%;     
+    margin: auto 0.5rem;
+    padding: 1rem;
+    /* overflow: hidden;     */
+    /* overflow: visible; */
+    display: flex;    
+    border: 0.5px solid #ededed;
+}
+
+
+.post-icon {
+    color: red;
+    width: 10%;    
+}
+
+
+.post-icon object, img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.post-content {    
+    width: 85%;    
+}
+
+.post-option {    
+    width: 5%;    
+    overflow: visible;
+    text-align: center;
+}
+
+
+.post-content-header {
+    color: black;    
+    padding: 0.5rem;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.post-content-header div{    
+    font-family: "Comic Sans MS";   
+    font-weight: "bold";
+}
+
+
+.post-content-header a{
+    text-decoration: none;
+    color: #87828b;
+}
+
+.post-content-header a:hover{
+    text-decoration: none;
+    color: #6c686f;
+}
+
+a:hover {        
+    font-size: 120%;
+    font-weight: bold;
+}
+  
+
+
+.post-content-text {
+    color: #201f21;    
+    padding: 0.5rem;    
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.post-content-text span{
+    color: 201f21;    
+    padding: 0.5rem;
+    overflow: hidden;
+    size: 20px;
+    font-weight: bold;
+}
+
+
+.hide {
+  display: none;
+  width: 4rem;
+}
+
+.time-span:hover > .hide {
+    transition-delay:1s;
+  color: #ffffff;
+  opacity: 0.6;
+  background-color:#999999;  
+  font-size: 0.4rem;
+  font-family: Helvetica;
+  display: inline; 
+  border-radius: 18px;
+  padding: 0.3rem;
+}
+
+
+#dropdown-button {
+    width: 25px;
+    height: 25px;
+    overflow: visible;    
+    border-radius: 50%;
+}
+
+#dropdown-item {
+    color: #2d2b2e;
+    font-size:80%;
+    font-family: Helvetica;
+}
+
+.search-form {
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+    text-align: center;
+}

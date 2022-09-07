@@ -1,0 +1,41 @@
+.profile-image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.profile-cover-container{
+    height: 12rem;
+    width: 12rem;
+    background-color: green;
+}
+
+.profile-cover{
+    width: 90%;
+    height: 90%;
+}
+
+
+.wrap {
+    display:flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-family: "Times New Roman";
+    font-size: 1rem;    
+    color: black;
+}
+
+.user-mail {
+    font-family: "Arial";
+    font-size: 0.5rem;
+    color: grey;
+}
+
+
+img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
